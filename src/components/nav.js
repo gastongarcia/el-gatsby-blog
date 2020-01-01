@@ -1,5 +1,5 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
 
 const Nav = () => {
   return (
@@ -9,7 +9,7 @@ const Nav = () => {
         className="mr-3"
         activeStyle={{ textDecoration: "underline" }}
       >
-        Index
+        Inicio
       </Link>
       <Link
         to="/about"
@@ -26,7 +26,7 @@ const Nav = () => {
         Blog
       </Link>
     </nav>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;

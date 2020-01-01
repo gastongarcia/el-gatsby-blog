@@ -4,6 +4,18 @@
 
 @tailwind utilities;
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Cantata One", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
 p {
-  @apply my-5 pr-2;
+  font-family: "Karla", Helvetica, Arial, sans-serif;
+  @apply my-5 text-xl pr-2 tracking-tight;
+}
+a {
+  @apply underline;
 }
