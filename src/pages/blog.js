@@ -27,7 +27,7 @@ const Blog = () => {
 
   return (
     <Layout tabTitle="Blog">
-      <ol className="p-5">
+      <ol className="p-5 text-lg">
         {posts.map(post => (
           <li className="list-disc ml-5 mb-3" key={post.node.frontmatter.slug}>
             <Link

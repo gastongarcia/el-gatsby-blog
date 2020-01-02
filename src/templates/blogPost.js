@@ -10,8 +10,8 @@ const BlogPost = ({ data }) => {
     <Layout tabTitle="Blog">
       <section className="p-5">
         <div className="blog-post">
-          <h2 className="text-xl">{post.frontmatter.title}</h2>
-          <h3 className="text-sm">{post.frontmatter.date}</h3>
+          <h2 className="text-3xl">{post.frontmatter.title}</h2>
+          <h3 className="text-sm mb-12">{post.frontmatter.date}</h3>
         </div>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </section>

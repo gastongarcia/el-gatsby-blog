@@ -14,8 +14,12 @@ h5 {
 }
 p {
   font-family: "Karla", Helvetica, Arial, sans-serif;
-  @apply my-5 text-xl pr-2 tracking-tight;
+  @apply my-8 text-xl pr-2 tracking-tight;
 }
-a {
+p > a {
   @apply underline;
+}
+ul {
+  list-style-type: disc;
+  @apply text-lg;
 }
